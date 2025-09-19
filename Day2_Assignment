@@ -1,0 +1,16 @@
+
+let num=-2;
+function isOddEven(num)
+{
+    if(num%2==0)
+    {
+        console.log("The entered number is EVEN number:" +num)
+    }
+else
+        {
+        console.log("The entered number is ODD number:" +num)    
+        }
+    
+}
+isOddEven(num)    
+
