@@ -1,0 +1,36 @@
+
+const browsernameConst="Chrome";
+//var browsernameVar="Chrome";
+//let browsernameLet="Chrome";
+function getBrowserName ()
+{
+var browsernameVar="firefox";
+let browsernameLet="firefox";
+
+    if(browsernameVar=="Safari")
+     {
+        var browsernameVar="Safari";
+        let browsernameLet="Safari";
+
+      console.log("Inside 'block' varBrowsername should be displayed:" +browsernameVar)
+     }
+     else if(browsernameLet=="Chrome")
+     {
+      console.log("Inside LetBrowsername should be displayed:" +browsernameLet)
+     }
+     else
+     {
+        console.log("Inside function LetBrowsername should be displayed:" +browsernameLet)
+     }
+console.log("INside 'function' varBrowsername should be displayed:" +browsernameVar)
+     
+console.log("INside 'function' LetBrowsername should be displayed:" +browsernameLet)  
+}
+    
+//console.log("Outside function LetBrowsername should be displayed:" +browsernameLet)
+
+
+getBrowserName()
+console.log("The global 'const' value should be displyed:"+browsernameConst);
+
+
