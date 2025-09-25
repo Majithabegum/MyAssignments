@@ -1,0 +1,19 @@
+
+function revStr()
+{
+    let test=["t","e","s","t","l","e","a","f"];
+    let len=test.length;
+    console.log(len);
+
+    for(let i=len-1;i>=0;i--)
+    {
+       
+       console.log(test[i])
+  
+
+
+    }
+}
+    
+revStr()
+
